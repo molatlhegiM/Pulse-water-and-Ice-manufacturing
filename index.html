@@ -11,7 +11,9 @@
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+ 
 
         <!-- Icon Font Stylesheet -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
@@ -34,9 +36,10 @@
            <!-- Navbar & Hero Start -->
         <div class="container-fluid position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="index.html" class="navbar-brand p-0 text-white fw-bold fs-4" style="letter-spacing: 1px;">
-                     Pulse Water and Ice 
+                <a href="index.html" class="navbar-brand p-0 text-white fw-bold fs-4" style="letter-spacing: 1px; font-family: 'Playfair Display', serif;">
+                  Pulse Water and Ice
                 </a>
+
 
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -60,13 +63,14 @@
                     <div class="d-none d-xl-flex me-3">
                         <div class="d-flex flex-column pe-3 border-end border-primary">
                             <span class="text-body">Get Free Delivery</span>
-                            <a href="tel:+27614115412"><span class="text-primary">Free: +27 (0) 61 411 5412</span></a>
+                            <a href="tel:+27614115412"><span class="text-primary">+27 (0) 61 411 5412</span></a>
                         </div>
                     </div>
-                    <button class="btn btn-primary btn-md-square d-flex flex-shrink-0 mb-3 mb-lg-0 rounded-circle me-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                    
                     <a href="" class="btn btn-primary rounded-pill d-inline-flex flex-shrink-0 py-2 px-4">Order Now</a>
                 </div>
             </nav>
+        </div>
 
 
 
@@ -116,24 +120,6 @@
 <!-- Carousel End -->
 
         
-        <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center">
-                        <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                            <span id="search-icon-1" class="input-group-text btn border p-3"><i class="fa fa-search text-white"></i></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal Search End -->
 
         <!-- feature Start -->
         <div class="container-fluid feature bg-light py-5">
@@ -149,7 +135,7 @@
                     <div class="feature-icon mb-3"><i class="fas fa-hand-holding-water text-white fa-3x"></i></div>
                     <a href="#" class="h4 mb-3">Quality Check</a>
                     <p class="mb-3">At Paulse Water & Ice, every bottle undergoes rigorous quality checks to ensure the highest purity and taste for our customers.</p>
-                    <a href="#" class="btn text-secondary">Read More <i class="fa fa-angle-right"></i></a>
+                    
                 </div>
             </div>
             <!-- 5 Steps Filtration -->
@@ -158,7 +144,7 @@
                     <div class="feature-icon mb-3"><i class="fas fa-filter text-white fa-3x"></i></div>
                     <a href="#" class="h4 mb-3">5 Steps Filtration</a>
                     <p class="mb-3">Our advanced 5-step filtration system removes impurities while retaining essential minerals for optimal hydration.</p>
-                    <a href="#" class="btn text-secondary">Read More <i class="fa fa-angle-right"></i></a>
+                    
                 </div>
             </div>
             <!-- Composition -->
@@ -167,7 +153,7 @@
                     <div class="feature-icon mb-3"><i class="fas fa-recycle text-white fa-3x"></i></div>
                     <a href="#" class="h4 mb-3">Composition</a>
                     <p class="mb-3">Paulse water is naturally balanced with essential minerals that contribute to a crisp, refreshing taste and healthy lifestyle.</p>
-                    <a href="#" class="btn text-secondary">Read More <i class="fa fa-angle-right"></i></a>
+                    
                 </div>
             </div>
             <!-- Lab Control -->
@@ -176,7 +162,7 @@
                     <div class="feature-icon mb-3"><i class="fas fa-microscope text-white fa-3x"></i></div>
                     <a href="#" class="h4 mb-3">Lab Control</a>
                     <p class="mb-3">Our in-house lab team continuously monitors the production process to maintain high safety and hygiene standards.</p>
-                    <a href="#" class="btn text-secondary">Read More <i class="fa fa-angle-right"></i></a>
+                    
                 </div>
             </div>
         </div>
@@ -420,206 +406,104 @@
 </div>
 <!-- Service End -->
 
+<!-- Products Start -->
+<div class="container-fluid product py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-uppercase text-primary">Our Products</h4>
+            <h1 class="display-3 text-capitalize mb-3">We Deliver Best Quality Bottle Packs.</h1>
+        </div>
 
-        <!-- Products Start -->
-        <div class="container-fluid product py-5">
-            <div class="container py-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-uppercase text-primary">Our Products</h4>
-                    <h1 class="display-3 text-capitalize mb-3">We Deliver Best Quality Bottle Packs.</h1>
-                </div>
-                <div class="row g-4 justify-content-center">
-                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="product-item">
-                            <img src="img/product-3.png" class="img-fluid w-100 rounded-top"  alt="Image">
-                            <div class="product-content bg-light text-center rounded-bottom p-4">
-                                <p>350ml 1 bottle</p>
-                                <a href="#" class="h4 d-inline-block mb-3">Mineral Water Bottle</a>
-                                <p class="fs-4 text-primary mb-3">R35:00</p>
-                                <a href="#" class="btn btn-secondary rounded-pill py-2 px-4">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="product-item">
-                            <img src="img/product-2.png" class="img-fluid w-100 rounded-top"  alt="Image">
-                            <div class="product-content bg-light text-center rounded-bottom p-4">
-                                <p>X24 350ml bottles</p>
-                                <a href="#" class="h4 d-inline-block mb-3">RO Water Bottle</a>
-                                <p class="fs-4 text-primary mb-3">R70:00</p>
-                                <a href="#" class="btn btn-secondary rounded-pill py-2 px-4">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="product-item">
-                            <img src="img/product-1.png" class="img-fluid w-100 rounded-top"  alt="Image">
-                            <div class="product-content bg-light text-center rounded-bottom p-4">
-                                <p>6L 3 Bottles</p>
-                                <a href="#" class="h4 d-inline-block mb-3">UV Water Bottle</a>
-                                <p class="fs-4 text-primary mb-3">R100:00</p>
-                                <a href="#" class="btn btn-secondary rounded-pill py-2 px-4">Read More</a>
-                            </div>
-                        </div>
+        <div class="row g-4 justify-content-center">
+            <!-- Product 1 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="product-item">
+                    <img src="img/product-3.png" class="img-fluid w-100 rounded-top" alt="350ml Bottle">
+                    <div class="product-content bg-light text-center rounded-bottom p-4">
+                        <p>350ml/500ml (1) Bottle</p>
+                        <a href="#" class="h4 d-inline-block mb-3">Purified Mineral Water Bottle</a>
+                        <p class="fs-4 text-primary mb-3">R8.50 - R10.00</p>
+                        <a class="btn btn-secondary rounded-pill py-2 px-4" data-product="350ml/500ml Purified Mineral Water Bottle">Purchase</a>
                     </div>
                 </div>
-                <div class="row g-4 justify-content-center">
-    <!-- 10kg Purified Ice -->
-    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
-        <div class="product-item">
-            <img src="img/Ice 10kg.png" class="img-fluid w-100 rounded-top" alt="10kg Purified Ice">
-            <div class="product-content bg-light text-center rounded-bottom p-4">
-                <p>Purified Ice Pack</p>
-                <a href="#" class="h4 d-inline-block mb-3">10kg Purified Ice</a>
-                <p class="mb-2 text-dark fw-bold">Bulk Price</p>
-                <p class="mb-2">2kg Bags – R10 each<br>3kg Bags – R15 each</p>
-                <p class="fs-4 text-primary mb-3">For orders between 10–19 bags</p>
-                <a href="#" class="btn btn-secondary rounded-pill py-2 px-4">Order 10kg</a>
             </div>
-        </div>
-    </div>
 
-    <!-- 20kg Purified Ice -->
-    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
-        <div class="product-item">
-            <img src="img/Ice 20kg.png" class="img-fluid w-100 rounded-top" alt="20kg Purified Ice">
-            <div class="product-content bg-light text-center rounded-bottom p-4">
-                <p>Purified Ice Pack</p>
-                <a href="#" class="h4 d-inline-block mb-3">20kg Purified Ice</a>
-                <p class="mb-2 text-dark fw-bold">Bulk Price</p>
-                <p class="mb-2">2kg Bags – R8 each<br>3kg Bags – R12 each</p>
-                <p class="fs-4 text-primary mb-3">For orders between 20–49 bags</p>
-                <a href="#" class="btn btn-secondary rounded-pill py-2 px-4">Order 20kg</a>
+            <!-- Product 2 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="product-item">
+                    <img src="img/product-2.png" class="img-fluid w-100 rounded-top" alt="24-Pack">
+                    <div class="product-content bg-light text-center rounded-bottom p-4">
+                        <p>24-Pack 350ml/500ml Bottles</p>
+                        <a href="#" class="h4 d-inline-block mb-3">Purified Mineral Water Bottle</a>
+                        <p class="fs-4 text-primary mb-3">R127.20 - R240.00</p>
+                        <a class="btn btn-secondary rounded-pill py-2 px-4" data-product="24-Pack Purified Mineral Water Bottle">Purchase</a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <!-- 50kg+ Purified Ice (Bulk Specials) -->
-    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
-        <div class="product-item">
-            <img src="img/Ice 50kg.png" class="img-fluid w-100 rounded-top" alt="50kg+ Purified Ice">
-            <div class="product-content bg-light text-center rounded-bottom p-4">
-                <p>Bulk Special</p>
-                <a href="#" class="h4 d-inline-block mb-3">50kg+ Purified Ice</a>
-                <p class="mb-2 text-dark fw-bold">Special Pricing</p>
-                <p class="mb-2">2kg Bags<br>3kg Bags </p>
-                <p class="fs-4 text-primary mb-3">For bulk orders (50+ bags)</p>
-                <a href="#" class="btn btn-secondary rounded-pill py-2 px-4">Order Bulk</a>
+            <!-- Product 3 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="product-item">
+                    <img src="img/product-1.png" class="img-fluid w-100 rounded-top" alt="18.9L Bottle">
+                    <div class="product-content bg-light text-center rounded-bottom p-4">
+                        <p>18.9L BPA</p>
+                        <a href="#" class="h4 d-inline-block mb-3">Purified Mineral Water Bottle</a>
+                        <p class="fs-4 text-primary mb-3">R322.00</p>
+                        <a class="btn btn-secondary rounded-pill py-2 px-4" data-product="18.9L BPA Purified Mineral Water Bottle">Purchase</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="product-item">
+                    <img src="img/Ice 10kg.png" class="img-fluid w-100 rounded-top" alt="10kg Purified Ice">
+                    <div class="product-content bg-light text-center rounded-bottom p-4">
+                        <p>Purified Ice Pack</p>
+                        <a href="#" class="h4 d-inline-block mb-3">10kg Purified Ice</a>
+                        <p class="mb-2 text-dark fw-bold">Bulk Price</p>
+                        <p class="mb-2">2kg Bags – R10 each<br>3kg Bags – R15 each</p>
+                        <p class="fs-4 text-primary mb-3">For orders between 10–19 bags</p>
+                        <a class="btn btn-secondary rounded-pill py-2 px-4" data-product="10kg Purified Ice">Order 10kg</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="product-item">
+                    <img src="img/Ice 20kg.png" class="img-fluid w-100 rounded-top" alt="20kg Purified Ice">
+                    <div class="product-content bg-light text-center rounded-bottom p-4">
+                        <p>Purified Ice Pack</p>
+                        <a href="#" class="h4 d-inline-block mb-3">20kg Purified Ice</a>
+                        <p class="mb-2 text-dark fw-bold">Bulk Price</p>
+                        <p class="mb-2">2kg Bags – R8 each<br>3kg Bags – R12 each</p>
+                        <p class="fs-4 text-primary mb-3">For orders between 20–49 bags</p>
+                        <a class="btn btn-secondary rounded-pill py-2 px-4" data-product="20kg Purified Ice">Order 20kg</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="product-item">
+                    <img src="img/Ice 50kg.png" class="img-fluid w-100 rounded-top" alt="50kg+ Purified Ice">
+                    <div class="product-content bg-light text-center rounded-bottom p-4">
+                        <p>Bulk Special</p>
+                        <a href="#" class="h4 d-inline-block mb-3">50kg+ Purified Ice</a>
+                        <p class="mb-2 text-dark fw-bold">Special Pricing</p>
+                        <p class="mb-2">2kg Bags<br>3kg Bags</p>
+                        <p class="fs-4 text-primary mb-3">For bulk orders (50+ bags)</p>
+                        <a class="btn btn-secondary rounded-pill py-2 px-4" data-product="50kg+ Purified Ice Bulk Order">Order Bulk</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
-            </div>
-        </div>
-        <!-- Products End -->
+<!-- Products End -->
 
 
-        <!-- Blog Start -->
-       
-        <!-- Blog End -->
-
-
-        <!-- Team Start -->
-        <div class="container-fluid team pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-uppercase text-primary">Our Team</h4>
-                    <h1 class="display-3 text-capitalize mb-3"></h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="team-item p-4">
-                            <div class="team-inner rounded">
-                                <div class="team-img">
-                                    <img src="img/team-1.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                                    <div class="team-share">
-                                        <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href=""><i class="fas fa-share-alt"></i></a>
-                                    </div>
-                                    <div class="team-icon rounded-pill py-2 px-2">
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                                <div class="bg-light rounded-bottom text-center py-4">
-                                    <h4 class="mb-3"></h4>
-                                    <p class="mb-0"></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="team-item p-4">
-                            <div class="team-inner rounded">
-                                <div class="team-img">
-                                    <img src="img/team-2.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                                    <div class="team-share">
-                                        <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href=""><i class="fas fa-share-alt"></i></a>
-                                    </div>
-                                    <div class="team-icon rounded-pill py-2 px-2">
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                                <div class="bg-light rounded-bottom text-center py-4">
-                                    <h4 class="mb-3"></h4>
-                                    <p class="mb-0"></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="team-item p-4">
-                            <div class="team-inner rounded">
-                                <div class="team-img">
-                                    <img src="img/team-3.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                                    <div class="team-share">
-                                        <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href=""><i class="fas fa-share-alt"></i></a>
-                                    </div>
-                                    <div class="team-icon rounded-pill py-2 px-2">
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                                <div class="bg-light rounded-bottom text-center py-4">
-                                    <h4 class="mb-3"></h4>
-                                    <p class="mb-0"></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="team-item p-4">
-                            <div class="team-inner rounded">
-                                <div class="team-img">
-                                    <img src="img/team-4.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                                    <div class="team-share">
-                                        <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href=""><i class="fas fa-share-alt"></i></a>
-                                    </div>
-                                    <div class="team-icon rounded-pill py-2 px-2">
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                                <div class="bg-light rounded-bottom text-center py-4">
-                                    <h4 class="mb-3"></h4>
-                                    <p class="mb-0"></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team End -->
 
         <!-- Testimonial Start -->
         <div class="container-fluid testimonial pb-5">
@@ -630,14 +514,13 @@
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.3s">
                     <div class="testimonial-item text-center p-4">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt pariatur officiis quis molestias, sit iure sunt voluptatibus accusantium laboriosam dolore.
-                        </p>
+                       <p>During our funeral preparations, Pulse Water and Ice delivered on time and with care. Their support helped us focus on the important things while knowing our guests would be taken care of.</p>
                         <div class="d-flex justify-content-center mb-4">
                             <img src="img/testimonial-1.jpg" class="img-fluid border border-4 border-primary" style="width: 100px; height: 100px; border-radius: 50px;" alt="">
                         </div>
                         <div class="d-block">
-                            <h4 class="text-dark">Client Name</h4>
-                            <p class="m-0 pb-3">Profession</p>
+                            <h4 class="text-dark">Mrs Mthimunye</h4>
+                            <p class="m-0 pb-3">Funeral Director</p>
                             <div class="d-flex justify-content-center text-secondary">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -648,14 +531,14 @@
                         </div>
                     </div>
                     <div class="testimonial-item text-center p-4">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt pariatur officiis quis molestias, sit iure sunt voluptatibus accusantium laboriosam dolore.
+                        <p><p>We’ve been using Pulse Water for all our community events. The quality is excellent and the team is always reliable.</p>
                         </p>
                         <div class="d-flex justify-content-center mb-4">
                             <img src="img/testimonial-2.jpg" class="img-fluid border border-4 border-primary" style="width: 100px; height: 100px; border-radius: 50px;" alt="">
                         </div>
                         <div class="d-block">
-                            <h4 class="text-dark">Client Name</h4>
-                            <p class="m-0 pb-3">Profession</p>
+                            <h4 class="text-dark">Lerato Dlamini</h4>
+                            <p class="m-0 pb-3">Event Planner</p>
                             <div class="d-flex justify-content-center text-secondary">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -666,14 +549,14 @@
                         </div>
                     </div>
                     <div class="testimonial-item text-center p-4">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt pariatur officiis quis molestias, sit iure sunt voluptatibus accusantium laboriosam dolore.
+                        <p><p>We’ve trusted Pulse Ice for years. Their ice lasts long and is perfect for catering functions.</p>
                         </p>
                         <div class="d-flex justify-content-center mb-4">
                             <img src="img/testimonial-3.jpg" class="img-fluid border border-4 border-primary" style="width: 100px; height: 100px; border-radius: 50px;" alt="">
                         </div>
                         <div class="d-block">
-                            <h4 class="text-dark">Client Name</h4>
-                            <p class="m-0 pb-3">Profession</p>
+                            <h4 class="text-dark">Noluthando Mokoena</h4>
+                            <p class="m-0 pb-3">Catering Business Owner</p>
                             <div class="d-flex justify-content-center text-secondary">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -684,14 +567,14 @@
                         </div>
                     </div>
                     <div class="testimonial-item text-center p-4">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt pariatur officiis quis molestias, sit iure sunt voluptatibus accusantium laboriosam dolore.
+                        <p><p>Professional service and good pricing. Pulse is definitely the best in the area for water and ice supply.</p>
                         </p>
                         <div class="d-flex justify-content-center mb-4">
                             <img src="img/testimonial-3.jpg" class="img-fluid border border-4 border-primary" style="width: 100px; height: 100px; border-radius: 50px;" alt="">
                         </div>
                         <div class="d-block">
-                            <h4 class="text-dark">Client Name</h4>
-                            <p class="m-0 pb-3">Profession</p>
+                            <h4 class="text-dark">Thapelo Radebe</h4>
+                            <p class="m-0 pb-3">Local Business Owner</p>
                             <div class="d-flex justify-content-center text-secondary">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -706,20 +589,15 @@
         </div>
         <!-- Testimonial End -->
 
-
 <!-- Footer Start -->
-<div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-    <div class="container py-5">
-        <div class="row g-5 mb-5 align-items-center">
-             <div class="col-lg-4 text-lg-end text-center">
-                <div class="d-flex justify-content-center justify-content-lg-end">
-                    <a class="btn btn-secondary btn-md-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-secondary btn-md-square rounded-circle me-2" href="#"><i class="fab fa-instagram"></i></a>
-                    <a class="btn btn-secondary btn-md-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-        </div>
+<div class="container-fluid footer py-5 wow fadeIn position-relative" data-wow-delay="0.2s">
 
+    <!-- Background Logo -->
+    <div class="footer-bg-logo position-absolute top-50 start-50 translate-middle">
+        <img src="img/Logo final.png" alt="Pulse Logo" class="img-fluid">
+    </div>
+
+    <div class="container py-5 position-relative" style="z-index: 1;">
         <div class="row g-5">
             <div class="col-md-6 col-lg-4">
                 <h3 class="text-white mb-3"><i class="fas fa-hand-holding-water text-primary me-2"></i>Pulse Ice & Water Manufacturing</h3>
@@ -728,16 +606,27 @@
 
             <div class="col-md-6 col-lg-4">
                 <h4 class="text-white mb-3">Quick Links</h4>
-                <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                <a href="#"><i class="fas fa-angle-right me-2"></i> Contact</a>
-                <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a><br>
+                 <a href="product.html"><i class="fas fa-angle-right me-2"></i> Our Products</a><br>
+                <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                
             </div>
 
             <div class="col-md-6 col-lg-4">
                 <h4 class="text-white mb-3">Contact Info</h4>
-                <p><i class="fa fa-map-marker-alt me-2"></i>  7 Albertyn Street, <br> Vorna Valley,  Johannesburg, <br>Gauteng,  <br>1686</p>
-                <p><i class="fas fa-envelope me-2"></i> info@pulseicewater.co.za</p>
+                <p><i class="fa fa-map-marker-alt me-2"></i> 7 Albertyn Street, Vorna Valley, Johannesburg, Gauteng, 1686</p>
+                <p><i class="fas fa-envelope me-2"></i> info@pulsewater.co.za</p>
                 <p><i class="fas fa-phone me-2"></i> +27 64 243 6568</p>
+            </div>
+        </div>
+
+        <div class="row g-5 mt-4">
+            <div class="col-lg-12 text-center">
+                <div class="d-flex justify-content-center">
+                    <a class="btn btn-secondary btn-md-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-secondary btn-md-square rounded-circle me-2" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-secondary btn-md-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
             </div>
         </div>
     </div>
@@ -753,6 +642,7 @@
 <!-- Copyright End -->
 
 
+
         <!-- Back to Top -->
         <a href="#" class="btn btn-secondary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
 
@@ -765,7 +655,20 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    
+    <script>
+  function generateWhatsAppLink(productName, actionText = "Hi, I'm interested in this product.") {
+    const phoneNumber = "27834245975";
+    const message = `Hi, I'm interested in purchasing ${productName}. Please send me more details.`;
+    const encodedMessage = encodeURIComponent(message);
+    return `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+  }
+
+  document.querySelectorAll('[data-product]').forEach(btn => {
+    const product = btn.getAttribute('data-product');
+    btn.setAttribute('href', generateWhatsAppLink(product));
+  });
+</script>
+
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>

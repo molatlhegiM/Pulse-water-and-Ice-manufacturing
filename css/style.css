@@ -766,46 +766,35 @@
     }
 }
 /*** testimonial End ***/
+/* Footer Background Logo */
+.footer-bg-logo {
+    opacity: 0.05;
+    z-index: 0;
+    max-width: 300px;
+}
 
-/*** Footer Start ***/
+.footer-bg-logo img {
+    width: 100%;
+    height: auto;
+}
+
+/* Reduce footer padding */
 .footer {
     background: var(--bs-dark);
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
 }
 
-.footer .footer-item a {
-    line-height: 35px;
+/* Improve spacing between lines and icons */
+.footer a, .footer p {
     color: var(--bs-body);
-    transition: 0.5s;
+    line-height: 1.6;
+    font-size: 15px;
 }
 
-.footer .footer-item p {
-    line-height: 35px;
-}
-
-.footer .footer-item a:hover {
-    letter-spacing: 1px;
+.footer a:hover {
     color: var(--bs-primary);
 }
 
-.footer .footer-item .footer-btn a,
-.footer .footer-item .footer-btn a i {
-    transition: 0.5s;
-}
-
-.footer .footer-item .footer-btn a:hover {
-    background: var(--bs-white);
-}
-
-.footer .footer-item .footer-btn a:hover i {
-    color: var(--bs-primary) !important;
-}
-/*** Footer End ***/
-
-/*** copyright Start ***/
-.copyright {
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    background: var(--bs-dark);
-}
-/*** copyright end ***/
 
 

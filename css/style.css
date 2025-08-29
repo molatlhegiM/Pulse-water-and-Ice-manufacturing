@@ -299,6 +299,7 @@
 }
 
 /* Promo Banner Styling */
+/* Desktop Banner */
 .promo-banner {
   position: fixed;
   bottom: 20px;
@@ -322,6 +323,7 @@
     left: 50%;
     bottom: 50%;
     transform: translate(-50%, 50%);
+    opacity: 0;
   }
 
   .promo-banner img {

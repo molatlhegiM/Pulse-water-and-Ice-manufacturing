@@ -1,3 +1,10 @@
+<!--  © 2025 Andries Molatlhegi (M-Sithole Digital Agency)
+  Licensed under the MIT License.
+  This code Licenced under the terms of the MIT license.
+  https://opensource.org/licenses/MIT
+-->
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,6 +35,18 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z7PLZDY3QP">
+        </script>
+        <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+
+         gtag('config', 'G-Z7PLZDY3QP');
+         </script>
+
     </head>
 
     <body>
@@ -65,7 +84,10 @@
                             <a href="tel:+4733378901"><span class="text-primary">Free: +27 (0) 61 411 5412</span></a>
                         </div>
                     </div>
-                  <a href="" class="btn btn-primary rounded-pill d-inline-flex flex-shrink-0 py-2 px-4">Order Now</a>
+                  <a href="https://wa.me/27614115412" class="btn btn-primary rounded-pill d-inline-flex flex-shrink-0 py-2 px-4" target="_blank">
+                     Order Now
+                  </a>
+
                 </div>
             </nav>
  
@@ -161,7 +183,7 @@
                             <i class="fa fa-phone-alt fa-2x text-secondary me-4"></i>
                             <div>
                                 <h4>Telephone</h4>
-                                <p class="mb-0">+27 83 424 5975</p>
+                                <p class="mb-0">+27 (0) 61 411 5412</p>
                             </div>
                         </div>
                     </div>
@@ -203,8 +225,8 @@
             <div class="col-md-6 col-lg-4">
                 <h4 class="text-white mb-3">Contact Info</h4>
                 <p><i class="fa fa-map-marker-alt me-2"></i> 7 Albertyn Street, Vorna Valley, Johannesburg, Gauteng, 1686</p>
-                <p><i class="fas fa-envelope me-2"></i> info@pulsewater.co.za</p>
-                <p><i class="fas fa-phone me-2"></i> +27 64 243 6568</p>
+                <p><i class="fas fa-envelope me-2"></i> Sales@pulsewater.co.za</p>
+                <p><i class="fas fa-phone me-2"></i> +27 061 411 5412</p>
             </div>
         </div>
 
@@ -253,7 +275,7 @@ function sendToWhatsApp() {
 
     const fullMessage = `Hello Pulse Ice and Water team 👋,%0A%0AMy name is *${name}*. I'm reaching out because I'm interested in your services or products.%0A%0AHere are my details:%0A📧 Email: ${email}%0A📞 Phone: ${phone}%0A📝 Subject: ${subject}%0A💬 Message: ${message}%0A%0ALooking forward to hearing from you!`;
 
-    const whatsappURL = `https://wa.me/27834245975?text=${fullMessage}`;
+    const whatsappURL = `https://wa.me/27614115412?text=${fullMessage}`;
     window.open(whatsappURL, "_blank");
 }
 </script>
